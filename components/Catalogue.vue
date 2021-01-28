@@ -23,7 +23,7 @@
       <div class="two">
         <div class="text">
           <span class="spanLeft">02</span>
-          <h4 class="textLeft">Mollusque</h4>
+          <h4 class="textLeft">Mollusques</h4>
         </div>
         <div class="mollusque1"></div>
         <div class="mollusque2"></div>
@@ -77,8 +77,6 @@ h2{
 }
 
 /* CRUSTACE */
-.produits{
-}
 .one{
   width:80%;
   margin: 5px auto;
@@ -86,7 +84,6 @@ h2{
   height:17vw;
   overflow: hidden;
   display: flex;
-  justify-content: start;
   align-items: center;
 }
 .crustace1{
@@ -135,7 +132,6 @@ h2{
   height:17vw;
   overflow: hidden;
   display: flex;
-  justify-content: start;
   align-items: center;
 }
 .mollusque1{

@@ -31,4 +31,8 @@ html {
   margin: 0;
   padding: 0;
 }
+body{
+  max-width: 1024px;
+  margin: 0 auto;
+}
 </style>

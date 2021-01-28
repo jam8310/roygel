@@ -46,29 +46,28 @@ export default {
 /*  FIN BANNIERE  */
 
 /*  NAV  */
+nav{
+  max-width: 100%;
+}
 ul{
   width:100%;
   display: flex;
   justify-content:space-around;
   align-items: center;
   position: relative;
-  /* top:-200px; */
+  padding-left:10px;
 }
 ul li{
   list-style-type: none;
   text-align: center;
   position: relative;
-  padding: 10px;
 }
 .item{
+  max-width: 135px;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 1.5vw;
   font-family: 'fontMenu';
-}
-.itemLeft{
-  position: relative;
-  left:-15Px;
 }
 /*  FIN  NAV  */
 </style>
