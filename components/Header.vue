@@ -6,12 +6,12 @@
     </div>
     <nav>
       <ul>
-        <li class="item"> <nuxt-link to="/"> vision </nuxt-link></li>
-        <li class="item"> <nuxt-link to="/">Catalogue </nuxt-link></li>
+        <li class="item"> <a href="#">vision</a></li>
+        <li class="item itemLeft"> <a href="#">Catalogue</a></li>
         <li> </li>
         <li> </li>
-        <li class="item "> <nuxt-link to="/">Localisation </nuxt-link></li>
-        <li class="item "> <nuxt-link to="/">Contact </nuxt-link></li>
+        <li class="item"> <a href="#">Localisation</a></li>
+        <li class="item"> <a href="#">Contact</a></li>
       </ul>
     </nav>
   </header>
@@ -68,7 +68,7 @@ ul li{
 }
 .itemLeft{
   position: relative;
-  left:-15Px;
+  left:15Px;
 }
 /*  FIN  NAV  */
 </style>
