@@ -58,22 +58,22 @@ a{
 
 .effet{
   width:100%;
-  height:7vw;
+  height:70px;
   position: relative;
-  margin-top: 6vw;
+  margin-top: 70px;
   align-items: center;
 }
 .effet .brosse{
   position: absolute;
   left: 50%; top:50%;
   transform: translate(-50%, -50%);
-  width:23vw;
+  width: 230px;
 }
 .effet span{
   position: absolute;
   top: 50%; left: 50%;
   transform: translate(-50%, -50%);
-  font-size:1.9vw;
+  font-size:19px;
   text-transform: uppercase;
   font-weight: bold;
   color: #f1f1f1;
@@ -84,10 +84,10 @@ p{
   padding-top:10px;
   width:80%;
   margin: 0 auto;
-  font-size: 1.5vw;
-  padding-bottom:5vw;
+  font-size: 17px;
+  padding-bottom:50px;
   font-family: 'fontMenu';
   color: #999;
-  line-height:2.5vw;
+  line-height:25px;
 }
 </style>

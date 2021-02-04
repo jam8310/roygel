@@ -7,7 +7,7 @@
     <nav>
       <ul>
         <li class="item"> <a href="#">vision</a></li>
-        <li class="item"> <a href="#">Catalogue</a></li>
+        <li class="item itemLeft"> <a href="#">Catalogue</a></li>
         <li> </li>
         <li> </li>
         <li class="item"> <a href="#">Localisation</a></li>
@@ -63,11 +63,14 @@ ul li{
   position: relative;
 }
 .item{
-  max-width: 135px;
+  max-width: 120px;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 1.5vw;
+  font-size: 17px;
   font-family: 'fontMenu';
+}
+.itemLeft{
+  padding-left:20px;
 }
 /*  FIN  NAV  */
 </style>

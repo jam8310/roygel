@@ -54,7 +54,7 @@ export default {}
   width:80%;
   margin: 0 auto;
   position: relative;
-  height:15vw;
+  height: 150px;
   overflow: hidden;
   background-image: url('../assets/img/catalogue.jpg');
   background-position-x: 50%;
@@ -69,7 +69,7 @@ h2{
   position: absolute;
   top:50%;
   transform: translateY(-50%);
-  font-size: 5vw;
+  font-size: 40px;
   color: #fff;
   text-transform: uppercase;
   font-family: 'fontMenu';
@@ -81,7 +81,7 @@ h2{
   width:80%;
   margin: 5px auto;
   position: relative;
-  height:17vw;
+  height: 150px;
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -109,8 +109,8 @@ h2{
 }
 .produits span{
   position: absolute;
-  top: 25%;
-  font-size: 10vw;
+  top: 17%;
+  font-size: 100px;
   font-family: 'fontP';
   font-weight: bold;
   letter-spacing: -5px;
@@ -119,7 +119,7 @@ h2{
   position: absolute;
   top:87%;
   text-transform: uppercase;
-  font-size: 2vw;
+  font-size: 20px;
   font-family: 'fontP';
 }
 
@@ -129,7 +129,7 @@ h2{
   width:80%;
   margin: 5px auto;
   position: relative;
-  height:17vw;
+  height: 150px;
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -166,7 +166,7 @@ h2{
   width:80%;
   margin: 5px auto;
   position: relative;
-  height:17vw;
+  height: 150px;
   overflow: hidden;
   display: flex;
   justify-content: flex-end;
@@ -187,9 +187,6 @@ h2{
   background-image: url('../assets/img/poisson2.jpg');
   background-position-y: 50%;
   background-size: cover;
-}
-.text .size{
-  font-size: 1.5vw;
 }
 
 </style>
