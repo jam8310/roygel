@@ -38,17 +38,17 @@
     }
     section .produits .text span{
     position: absolute;
-    top: 2vw;
-    font-size: 10vw;
+    top: 10%;
+    font-size: 7.5vw;
     font-family: 'fontP';
     font-weight: bold;
     letter-spacing: -2px;
     }
     section .produits .text h4{
     position: absolute;
-    top:80%;
+    top:65%%;
     text-transform: uppercase;
-    font-size: 2.5vw;
+    font-size: 2vw;
     font-family: 'fontP';
     }
 }
