@@ -4,7 +4,7 @@
       <img src="../assets/img/banniere.jpg" class="headerImg" alt="">
       <img src="../assets/img/logo.png" class="logo" alt="">
     </div>
-    <nav>
+    <nav class="desktop">
       <ul>
         <li class="item"> <a href="#">vision</a></li>
         <li class="item itemLeft"> <a href="#">Catalogue</a></li>
@@ -27,7 +27,6 @@ export default {
 .img{
   position: relative;
   width:100%;
-  height:auto;
 }
 .headerImg{
   width:100%;

@@ -13,7 +13,7 @@
     <p>
       Roy gel est une petite entreprise familiale ouverte depuis 1973.... <br>
       Nous vous proposons un tarif général de produits surgelés.
-      Notre force est le service , la confiance et la determination à vous donner une entière satisfaction , autant sur la qualité nos produits ainsi que sur la livraison.
+      Notre force est le service , la confiance et la determination à vous donner une entière satisfaction , autant sur la qualité de nos produits ainsi que sur la livraison.
     </p>
     <catalogue></catalogue>
     </main>
@@ -58,7 +58,7 @@ a{
 
 .effet{
   width:100%;
-  height:70px;
+  height:65px;
   position: relative;
   margin-top: 70px;
   align-items: center;

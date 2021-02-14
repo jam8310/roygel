@@ -1,0 +1,54 @@
+@media screen and (max-width:1024px) {
+    /* HEADER */
+    .desktop ul .item{
+        font-size:1.65vw;
+    }.desktop ul .itemLeft{
+        padding-left: 1.9vw;
+    }
+
+    /* MAIN */
+    main .effet {
+        margin-top:7vw;
+        height:6vw;
+    }
+    main .effet .brosse {
+        width:22.5vw;
+    } 
+    main .effet span{
+        font-size:1.85vw;
+    }
+    main p {
+        font-size: 1.6vw;
+        line-height:2.5vw;
+        padding-bottom: 5vw;
+    }
+
+    /* SECTION */
+    section .catalogue{
+        height:15vw!important;
+    }
+    section .catalogue h2{
+        font-size:4vw;
+        text-shadow: -1.5px 1.5px 0 #000;
+    }
+
+    /* PRODUITS */
+    section .produits .one, section .produits .two,section .produits .three{
+        height:15vw;
+    }
+    section .produits .text span{
+    position: absolute;
+    top: 2vw;
+    font-size: 10vw;
+    font-family: 'fontP';
+    font-weight: bold;
+    letter-spacing: -2px;
+    }
+    section .produits .text h4{
+    position: absolute;
+    top:80%;
+    text-transform: uppercase;
+    font-size: 2.5vw;
+    font-family: 'fontP';
+    }
+}
