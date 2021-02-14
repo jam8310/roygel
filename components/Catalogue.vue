@@ -9,9 +9,9 @@
     <!-- CRUSTACE  -->
 
     <div class="produits">
-      <div class="one">
-        <div class="crustace1"></div>
-        <div class="crustace2"></div>
+      <div class="produit">
+        <div class="crustace1 produit1"></div>
+        <div class="crustace2 produit2"></div>
         <div class="text">
           <span class="spanRight">01</span>
           <h4 class="textRight">Crustacés</h4>
@@ -20,25 +20,103 @@
 
       <!-- MOLLUSQUE -->
 
-      <div class="two">
+      <div class="produit">
         <div class="text">
           <span class="spanLeft">02</span>
           <h4 class="textLeft">Mollusques</h4>
         </div>
-        <div class="mollusque1"></div>
-        <div class="mollusque2"></div>
+        <div class="mollusque1 produit1"></div>
+        <div class="mollusque2 produit2"></div>
       </div>
   
       <!-- POISSON ET FILETS -->
 
-      <div class="three">
-        <div class="poisson1"></div>
-        <div class="poisson2"></div>
+      <div class="produit">
+        <div class="poisson1 produit1"></div>
+        <div class="poisson2 produit2"></div>
         <div class="text">
           <span class="spanRight">03</span>
-          <h4 class="textRight size">Poissons et filets</h4>
+          <h4 class="textRight size">Poissons & filets</h4>
         </div>
       </div>
+
+      <!-- VOLAILLES ET VIANDES -->
+
+      <div class="produit">
+        <div class="text">
+          <span class="spanLeft">04</span>
+          <h4 class="textLeft">Volailles & Viandes</h4>
+        </div>
+        <div class="viande1 produit1"></div>
+        <div class="viande2 produit2"></div>
+      </div>
+
+      <!-- LEGUMES & AROMATES -->
+
+      <div class="produit">
+        <div class="legume1 produit1"></div>
+        <div class="legume2 produit2"></div>
+        <div class="text">
+          <span class="spanRight">05</span>
+          <h4 class="textRight size">Légumes & Aromates</h4>
+        </div>
+      </div>
+
+      <!-- TAPAS & PLATS CUISINES -->
+
+      <div class="produit">
+        <div class="text">
+          <span class="spanLeft">06</span>
+          <h4 class="textLeft">Tapas & Plats Cuisinés</h4>
+        </div>
+        <div class="tapas1 produit1"></div>
+        <div class="tapas2 produit2"></div>
+      </div>
+
+      <!-- FRITES & POMME DE TERRE -->
+
+      <div class="produit">
+        <div class="frite1 produit1"></div>
+        <div class="frite2 produit2"></div>
+        <div class="text">
+          <span class="spanRight">07</span>
+          <h4 class="textRight size">Frites & Pomme de terre</h4>
+        </div>
+      </div>
+
+      <!-- TAPAS & PLATS CUISINES -->
+
+      <div class="produit">
+        <div class="text">
+          <span class="spanLeft">08</span>
+          <h4 class="textLeft">Pains & Viennoiseries</h4>
+        </div>
+        <div class="pain1 produit1"></div>
+        <div class="pain2 produit2"></div>
+      </div>
+
+      <!-- DESSERTS -->
+
+      <div class="produit">
+        <div class="dessert1 produit1"></div>
+        <div class="dessert2 produit2"></div>
+        <div class="text">
+          <span class="spanRight">09</span>
+          <h4 class="textRight size">Desserts</h4>
+        </div>
+      </div>
+
+      <!-- GLACES -->
+
+      <div class="produit">
+        <div class="text">
+          <span class="spanLeft">10</span>
+          <h4 class="textLeft">&nbsp;Glaces</h4>
+        </div>
+        <div class="glace1 produit1"></div>
+        <div class="glace2 produit2"></div>
+      </div>
+
     </div>
   </section>
 </template>
@@ -75,9 +153,7 @@ h2{
   font-family: 'fontMenu';
   text-shadow: -2.5px 2.5px 0 #000;
 }
-
-/* CRUSTACE */
-.one{
+.produit{
   width:80%;
   margin: 5px auto;
   position: relative;
@@ -86,22 +162,16 @@ h2{
   display: flex;
   align-items: center;
 }
-.crustace1{
-  width:40%;
+.produit1{
   height:100%;
-  background-image: url('../assets/img/crustace1.jpg');
-  background-position-x: 50%;
-  background-position-y: 50%;
   background-size: cover;
 }
-.crustace2{
-  width:30%;
+.produit2{
   height:100%;
-  margin: 0 5px;
-  background-image: url('../assets/img/crustace2.jpg');
-  background-position-y: 50%;
   background-size: cover;
 }
+/* RIGHT */
+
 .text{
   width:30%;
   height:100%;
@@ -109,47 +179,22 @@ h2{
 }
 .produits span{
   position: absolute;
-  top: 17%;
-  font-size: 100px;
+  top: 10%;
+  font-size: 80px;
   font-family: 'fontP';
   font-weight: bold;
   letter-spacing: -5px;
 }
 .produits h4{
   position: absolute;
-  top:87%;
+  top:65%;
   text-transform: uppercase;
   font-size: 20px;
   font-family: 'fontP';
 }
 
-/* MOLLUSQUE*/
+/* LEFT */
 
-.two{
-  width:80%;
-  margin: 5px auto;
-  position: relative;
-  height: 150px;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-}
-.mollusque1{
-  width:28%;
-  height:100%;
-  margin: 0 5px;
-  background-image: url('../assets/img/mollusque1.jpg');
-  background-position-x: 40%;
-  background-position-y: 45%;
-  background-size: cover;
-}
-.mollusque2{
-  width:42%;
-  height:100%;
-  background-image: url('../assets/img/mollusque2.jpg');
-  background-position-y: 50%;
-  background-size: cover;
-}
 .textLeft, .spanLeft{
   left:0;
 }
@@ -160,33 +205,156 @@ h2{
   right:0;
 }
 
+
+/* CRUSTACE */
+
+.crustace1{
+  width:40%;
+  background-image: url('../assets/img/crustace1.jpg');
+  background-position-x: 50%;
+  background-position-y: 50%;
+ 
+}
+.crustace2{
+  width:30%;
+  margin: 0 5px;
+  background-image: url('../assets/img/crustace2.jpg');
+  background-position-y: 50%;
+}
+
+/* MOLLUSQUE*/
+
+.mollusque1{
+  width:28%;
+  margin: 0 5px;
+  background-image: url('../assets/img/mollusque1.jpg');
+  background-position-x: 40%;
+  background-position-y: 45%;
+}
+.mollusque2{
+  width:42%;
+  background-image: url('../assets/img/mollusque2.jpg');
+  background-position-y: 50%;
+}
+
+
 /* POISSON ET FILET */
 
-.three{
-  width:80%;
-  margin: 5px auto;
-  position: relative;
-  height: 150px;
-  overflow: hidden;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
 .poisson1{
   width:40%;
-  height:100%;
   background-image: url('../assets/img/poisson1.jpg');
   background-position-x: 35%;
   background-position-y: 15%;
-  background-size: cover;
 }
 .poisson2{
   width:30%;
-  height:100%;
   margin: 0 5px;
   background-image: url('../assets/img/poisson2.jpg');
   background-position-y: 50%;
-  background-size: cover;
 }
 
+/* VIANDE*/
+
+.viande1{
+  width:28%;
+  margin: 0 5px;
+  background-image: url('../assets/img/viande1.jpg');
+  background-position-x: 0%;
+  background-position-y: 100%;
+}
+.viande2{
+  width:42%;
+  background-image: url('../assets/img/viande2.jpg');
+  background-position-y: 50%;
+}
+
+/* LEGUMES ET AROMATES */
+
+.legume1{
+  width:40%;
+  background-image: url('../assets/img/legume1.jpg');
+  background-position-x: 35%;
+  background-position-y: 100%;
+}
+.legume2{
+  width:30%;
+  margin: 0 5px;
+  background-image: url('../assets/img/legume2.jpg');
+  background-position-y: 50%;
+}
+
+/* TAPAS & PLATS CUISINES*/
+
+.tapas1{
+  width:28%;
+  margin: 0 5px;
+  background-image: url('../assets/img/tapas1.jpg');
+  background-position-x: 55%;
+  background-position-y: 100%;
+}
+.tapas2{
+  width:42%;
+  background-image: url('../assets/img/tapas2.jpg');
+  background-position-y: 15%;
+}
+
+/* FRITES & POMME DE TERRE */
+
+.frite1{
+  width:40%;
+  background-image: url('../assets/img/frite1.jpg');
+  background-position-x: 35%;
+  background-position-y: 100%;
+}
+.frite2{
+  width:30%;
+  margin: 0 5px;
+  background-image: url('../assets/img/frite2.jpg');
+  background-position-y: 80%;
+}
+
+/* PAINS & VIENNOISERIES*/
+
+.pain1{
+  width:28%;
+  margin: 0 5px;
+  background-image: url('../assets/img/pain1.jpg');
+  background-position-x: 55%;
+  background-position-y: 100%;
+}
+.pain2{
+  width:42%;
+  background-image: url('../assets/img/pain2.jpg');
+  background-position-y: 15%;
+}
+
+/* DESSERTS */
+
+.dessert1{
+  width:40%;
+  background-image: url('../assets/img/dessert1.jpg');
+  background-position-x: 35%;
+  background-position-y: 100%;
+}
+.dessert2{
+  width:30%;
+  margin: 0 5px;
+  background-image: url('../assets/img/dessert2.jpg');
+  background-position-y: 55%;
+}
+
+/* GLACES */
+
+.glace1{
+  width:28%;
+  margin: 0 5px;
+  background-image: url('../assets/img/glace1.jpg');
+  background-position-x: 20%;
+  background-position-y: 50%;
+}
+.glace2{
+  width:42%;
+  background-image: url('../assets/img/glace2.jpg');
+  background-position-y: 50%;
+}
 </style>
