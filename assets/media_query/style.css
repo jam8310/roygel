@@ -33,7 +33,7 @@
     }
 
     /* PRODUITS */
-    section .produits .one, section .produits .two,section .produits .three{
+    section .produits .produit{
         height:15vw;
     }
     section .produits .text span{

@@ -3,7 +3,7 @@ export default {
   head: {
     title: 'roygel',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'fr'
     },
     meta: [
       { charset: 'utf-8' },
